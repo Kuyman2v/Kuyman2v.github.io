@@ -128,24 +128,4 @@ source ./devel/setup.bash
     
   </entry>
   
-  <entry>
-    <title>ROS Lesson1</title>
-    <link href="http://Kuyman2v.github.io/2016/12/06/ROS-Lesson1/"/>
-    <id>http://Kuyman2v.github.io/2016/12/06/ROS-Lesson1/</id>
-    <published>2016-12-06T14:39:18.000Z</published>
-    <updated>2017-06-08T03:26:32.620Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="ROS核心概念"><a href="#ROS核心概念" class="headerlink" title="ROS核心概念"></a>ROS核心概念</h2><blockquote><ul><li>Nodes</li><li>Messages and Topics</li><li>Services</li><li>ROS Master</li><li>Parameters</li><li>Stacks and packages</li></ul></blockquote><h2 id="ROS-Nodes"><a href="#ROS-Nodes" class="headerlink" title="ROS Nodes"></a>ROS Nodes</h2><blockquote><ul><li>单个的有目标的执行程序<br>例如，传感器驱动，致动器驱动，mapper,决策，UI等</li><li>独立的编译、执行、管理</li><li>Nodes用ROS的client library写<ul><li>roscpp–C++客户端库</li><li>rospy–python客户端库</li></ul></li><li>Nodes能被发布和订阅到一个Topic</li><li>Nodes能提供或者使用一个Service</li></ul></blockquote><h2 id="Topic"><a href="#Topic" class="headerlink" title="Topic"></a>Topic</h2><blockquote><ul><li>一个Topic是为已定义类型的信息流取的一个名字<br>例如，来自laser的数据被发送在一个叫<code>scan</code>的topic上，它的数据类型是<code>LaserScan</code></li><li>Nodes之间的相互通信是通过把messages发布到topic上</li><li>发布/订阅 模型是1-to-N广播式的</li></ul></blockquote><center><img src="https://ooo.0o0.ooo/2016/12/07/5847faf1cfe60.png" alt="ros-topic.png"></center><h2 id="Graph"><a href="#Graph" class="headerlink" title="Graph"></a>Graph</h2><center><img src="https://ooo.0o0.ooo/2016/12/07/5847fba382a04.png" alt="ros-graph.png"></center><h2 id="Messages"><a href="#Messages" class="headerlink" title="Messages"></a>Messages</h2><blockquote><ul><li>为内部Nodes交流而严格定义的数据结构</li><li>例如，geometry_msgs/Twist 被用来表达速度指令<ul><li>Vector3 linear<ul><li>float64 X</li><li>float64 Y</li><li>float64 Z</li></ul></li><li>Vector3 angular</li></ul></li></ul></blockquote><h2 id="Servece"><a href="#Servece" class="headerlink" title="Servece"></a>Servece</h2><blockquote><ul><li>同步的内部节点交互</li><li>客户端/服务器 模型：1-to-1应答式</li><li>Service的角色<ul><li>执行远程计算</li><li>触发功能/行为</li></ul></li><li>例如，map_server/static_map :取回被机器人导航使用的网格地图</li></ul></blockquote><h2 id="ROS-Master"><a href="#ROS-Master" class="headerlink" title="ROS Master"></a>ROS Master</h2><blockquote><ul><li>为Nodes提供连接信息使得它们能够相互之间传递信息<ul><li>每个Node在启动的时候都会与master相连，并会注册它们要发布和订阅的信息流的细节</li></ul></li><li>假如我们有两个节点:一个Camera节点和一个Image_viewer节点</li><li>典型的，camera节点将会在”images”topic上发布图像<center><img src="https://ooo.0o0.ooo/2016/12/07/5848004d1eb55.png" alt="master1.png"></center></li><li>现在，Image_viewer想要订阅”image”topic来看这里是否有图像：<center><img src="https://ooo.0o0.ooo/2016/12/07/584800c478d4a.png" alt="master2.png"></center></li><li>现在，”image”topic有了发布者和订阅者，master节点会告知camera和Image_viewer它们相互的存在，使得它们能够开始传输图像<center><img src="https://ooo.0o0.ooo/2016/12/07/584801bdab2c1.png" alt="master3.png"></center></li></ul></blockquote><h2 id="Parameter-Server"><a href="#Parameter-Server" class="headerlink" title="Parameter Server"></a>Parameter Server</h2><blockquote><ul><li>一个共享的多变量词典，能够被networks APIs访问</li><li>最好是被静态的、非二进制数据使用，例如配置参数</li><li>在ROS master内部运行<br><center><img src="https://ooo.0o0.ooo/2016/12/07/584802ae858e4.png" alt="master4.png"></center></li></ul></blockquote><h2 id="ROS-Packages"><a href="#ROS-Packages" class="headerlink" title="ROS Packages"></a>ROS Packages</h2><blockquote><ul><li>ROS中的软件用packages组织</li><li>一个package包含一个或者更多的节点并且提供一个ROS接口</li><li>大部分的ROS packages 都在github中托管着<center><img src="https://ooo.0o0.ooo/2016/12/07/5848037b2ac10.png" alt="package.png"></center><br>## ROS Packages System<br><center><img src="https://ooo.0o0.ooo/2016/12/07/584803eb30fee.png" alt="package-system.png"></center></li></ul></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;ROS核心概念&quot;&gt;&lt;a href=&quot;#ROS核心概念&quot; class=&quot;headerlink&quot; title=&quot;ROS核心概念&quot;&gt;&lt;/a&gt;ROS核心概念&lt;/h2&gt;&lt;blockquote&gt;&lt;ul&gt;&lt;li&gt;Nodes&lt;/li&gt;&lt;li&gt;Messages and Topics
-    
-    </summary>
-    
-    
-      <category term="ROS Lesson" scheme="http://Kuyman2v.github.io/tags/ROS-Lesson/"/>
-    
-  </entry>
-  
 </feed>
