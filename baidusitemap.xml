@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>http://Kuyman2v.github.io/2017/03/13/OpenCV-read-X265-HEVC-and-X264-video-on-Ubuntu/</loc>
+    <lastmod>2017-06-08T03:26:32.636Z</lastmod>
+    <data>
+        <display>
+        <title>OpenCV read X265/HEVC and X264 video on Ubuntu</title>
+        <pubTime>2017-03-13T03:06:45.000Z</pubTime>
+        
+        <tag>X265</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Kuyman2v.github.io/2016/12/23/Linux-admin/</loc>
+    <lastmod>2017-06-08T03:26:32.620Z</lastmod>
+    <data>
+        <display>
+        <title>Linux的账号管理</title>
+        <pubTime>2016-12-23T13:32:43.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Kuyman2v.github.io/2016/12/23/Linux%EF%BC%8C-etc-passwd%EF%BC%8C-etc-shadow/</loc>
+    <lastmod>2017-06-08T03:26:32.620Z</lastmod>
+    <data>
+        <display>
+        <title>Linux中的/etc/passwd和/etc/shadow</title>
+        <pubTime>2016-12-23T06:48:01.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Kuyman2v.github.io/2016/12/06/ROS-Lesson1/</loc>
+    <lastmod>2017-06-08T03:26:32.620Z</lastmod>
+    <data>
+        <display>
+        <title>ROS Lesson1</title>
+        <pubTime>2016-12-06T14:39:18.000Z</pubTime>
+        
+        <tag>ROS Lesson</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Kuyman2v.github.io/2016/12/07/ROS-Lesson2/</loc>
+    <lastmod>2017-06-08T03:26:32.620Z</lastmod>
+    <data>
+        <display>
+        <title>ROS Lesson2</title>
+        <pubTime>2016-12-07T14:42:04.000Z</pubTime>
+        
+        <tag>ROS Lesson</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://Kuyman2v.github.io/2016/12/20/ROS-Lesson3/</loc>
+    <lastmod>2017-06-08T03:26:32.604Z</lastmod>
+    <data>
+        <display>
+        <title>ROS Lesson3</title>
+        <pubTime>2016-12-20T14:28:34.000Z</pubTime>
+        
+        <tag>ROS Lesson</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
